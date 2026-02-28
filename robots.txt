@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /config/
+
+Sitemap: https://urbangrowth.space/sitemap.xml
