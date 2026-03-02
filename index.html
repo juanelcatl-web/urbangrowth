@@ -3,177 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UrbanGrowth | Crecimiento Urbano Sostenible</title>
+    <title>UrbanGrowth | Inteligencia Inmobiliaria & Inversiones Sostenibles</title>
     
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5719496512652584" crossorigin="anonymous"></script>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .gradient-text { background: linear-gradient(90deg, #10b981, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1449156001437-37c645dce501?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg { 
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+            url('https://images.unsplash.com/photo-1590059393041-3560751e360d?auto=format&fit=crop&w=1920&q=80'); 
+            background-size: cover; 
+            background-position: center; 
+        }
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-[#0a0f1a] text-slate-300 antialiased">
 
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-black tracking-tighter text-slate-900 uppercase">URBAN<span class="text-emerald-500">GROWTH</span></h1>
-            <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest">
-                <a href="#proyectos" class="hover:text-emerald-500 transition">Proyectos</a>
-                <a href="#sostenibilidad" class="hover:text-emerald-500 transition">Sostenibilidad</a>
-                <a href="privacidad.html" class="hover:text-emerald-500 transition">Privacidad</a>
+    <nav class="bg-[#0f172a]/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-black tracking-tighter text-white uppercase">URBAN<span class="text-emerald-500">GROWTH</span></h1>
+            <div class="hidden md:flex space-x-8 text-[10px] font-bold uppercase tracking-[0.2em]">
+                <a href="#tesis" class="hover:text-emerald-500 transition text-slate-400">Tesis de Inversión</a>
+                <a href="#tandil" class="hover:text-emerald-500 transition text-slate-400">Market Intelligence</a>
+                <a href="#informes" class="hover:text-emerald-500 transition text-slate-400">Informes Globales</a>
             </div>
         </div>
     </nav>
 
-    <header class="hero-bg h-[70vh] flex items-center justify-center text-center text-white px-4">
-        <div class="max-w-3xl">
-            <h2 class="text-5xl md:text-7xl font-black mb-6 leading-tight">Diseñando el futuro de nuestras ciudades.</h2>
-            <p class="text-xl opacity-90 mb-8 font-light">Consultoría y desarrollo de proyectos urbanos con enfoque en sostenibilidad y crecimiento inteligente.</p>
-            <a href="#proyectos" class="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-bold transition-all shadow-lg">Descubrir Proyectos</a>
+    <header class="hero-bg h-[85vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-4xl">
+            <span class="text-emerald-500 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Market Intelligence Tandil</span>
+            <h2 class="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">Donde el Capital encuentra Sostenibilidad.</h2>
+            <p class="text-xl opacity-80 mb-10 font-light max-w-2xl mx-auto">Analizamos el crecimiento urbano y las oportunidades de inversión en el sudeste bonaerense para capitales globales.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#tesis" class="bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-4 rounded-sm font-bold transition-all shadow-2xl uppercase text-xs tracking-widest">Ver Tesis 2026</a>
+                <a href="https://tandilprop.com" class="border border-white/20 hover:bg-white/10 text-white px-10 py-4 rounded-sm font-bold transition-all uppercase text-xs tracking-widest">Explorar TandilProp</a>
+            </div>
         </div>
     </header>
 
-    <div class="max-w-4xl mx-auto my-12 px-4">
-        <div class="bg-slate-200 h-24 flex items-center justify-center rounded-xl border-2 border-dashed border-slate-300">
+    <div class="max-w-5xl mx-auto my-16 px-4">
+        <div class="bg-slate-900/50 p-2 rounded-lg border border-slate-800 flex items-center justify-center min-h-[100px]">
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5719496512652584" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
     </div>
 
-    <main id="proyectos" class="max-w-6xl mx-auto px-4 py-16">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
-            <div>
-                <span class="text-emerald-500 font-bold uppercase tracking-widest text-sm">Nuestra Visión</span>
-                <h3 class="text-4xl font-black text-slate-900 mt-2">Proyectos Destacados</h3>
-            </div>
+    <main id="tesis" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="mb-16">
+            <h3 class="text-3xl font-black text-white mb-4 italic">Tesis de Inversión Actualizadas</h3>
+            <div class="h-1 w-20 bg-emerald-500"></div>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform">
-                <img src="https://images.unsplash.com/photo-1518005020453-1bb7470fe924?auto=format&fit=crop&w=800&q=80" alt="Eco Edificio" class="h-64 w-full object-cover">
-                <div class="p-8 text-center">
-                    <h4 class="font-bold text-xl mb-2">Edificios de Emisiones Cero</h4>
-                    <p class="text-slate-500 text-sm">Implementación de paneles solares y sistemas de recolección de agua pluvial.</p>
+        <div class="grid md:grid-cols-3 gap-12">
+            <article class="group cursor-pointer">
+                <div class="overflow-hidden mb-6 rounded-sm">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Inversión Tandil" class="group-hover:scale-110 transition-transform duration-500 grayscale group-hover:grayscale-0">
                 </div>
-            </div>
+                <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Real Estate Strategy</span>
+                <h4 class="text-xl font-bold text-white mt-2 mb-4">Tandil 2026: El refugio de valor en el Sudeste</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">Por qué el ecosistema tecnológico (Unicen + Globant) asegura una rentabilidad neta superior al 5% anual en alquileres temporales premium.</p>
+                <a href="#" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Leer análisis completo →</a>
+            </article>
 
-            <div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform">
-                <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=800&q=80" alt="Espacios Verdes" class="h-64 w-full object-cover">
-                <div class="p-8 text-center">
-                    <h4 class="font-bold text-xl mb-2">Micro-Pulmones Urbanos</h4>
-                    <p class="text-slate-500 text-sm">Transformación de baldíos en espacios de biodiversidad y recreación.</p>
+            <article class="group cursor-pointer">
+                <div class="overflow-hidden mb-6 rounded-sm">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Capital Europeo" class="group-hover:scale-110 transition-transform duration-500 grayscale group-hover:grayscale-0">
                 </div>
-            </div>
+                <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Global Capital</span>
+                <h4 class="text-xl font-bold text-white mt-2 mb-4">Guía para Inversores del Mercosur y Europa</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">Seguridad jurídica, marcos impositivos y la creciente demanda de "Lifestyle Homes" por parte de expatriados y nómades digitales en las sierras.</p>
+                <a href="#" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Ver marco regulatorio →</a>
+            </article>
 
-            <div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:scale-105 transition-transform text-center">
-                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Movilidad" class="h-64 w-full object-cover">
-                <div class="p-8">
-                    <h4 class="font-bold text-xl mb-2">Movilidad Integrada</h4>
-                    <p class="text-slate-500 text-sm">Diseño de ciclovías inteligentes y transporte de bajo impacto ambiental.</p>
+            <article class="group cursor-pointer">
+                <div class="overflow-hidden mb-6 rounded-sm">
+                    <img src="https://images.unsplash.com/photo-1449156001437-37c645dce501?auto=format&fit=crop&w=800&q=80" alt="Sostenibilidad" class="group-hover:scale-110 transition-transform duration-500 grayscale group-hover:grayscale-0">
                 </div>
-            </div>
+                <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Urban Design</span>
+                <h4 class="text-xl font-bold text-white mt-2 mb-4">Certificaciones Sustentables y Valor de Reventa</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">Cómo la construcción carbono-cero está impactando en el valor de tasación de las nuevas zonas de expansión de Tandil y Mar del Plata.</p>
+                <a href="#" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Explorar tendencias →</a>
+            </article>
         </div>
     </main>
-<section style="padding: 60px 20px; max-width: 800px; margin: 0 auto; line-height: 1.8; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    
-    <h2 style="color: #00ff88; font-size: 2.5rem; margin-bottom: 20px; border-left: 5px solid #00ff88; padding-left: 15px;">
-        El Futuro es Verde: Crecimiento Urbano y Sostenibilidad
-    </h2>
-    
-    <p style="font-size: 1.1rem; color: #aaa; margin-bottom: 30px;">
-        <em>Por el Equipo de UrbanGrowth • 28 de Febrero, 2026</em>
-    </p>
 
-    <p>
-        Para el año 2050, se estima que el 70% de la población mundial vivirá en ciudades. Este crecimiento acelerado presenta un desafío histórico: ¿cómo expandir nuestras metrópolis sin destruir el ecosistema que nos rodea? La respuesta reside en el <strong>Urbanismo Sostenible</strong>.
-    </p>
-
-    <h3 style="color: #00ff88; margin-top: 40px;">Ciudades que están Marcando el Camino</h3>
-    
-    <div style="background: #1a1a1a; padding: 25px; border-radius: 10px; margin: 20px 0; border: 1px solid #333;">
-        <h4 style="color: #fff; margin-top: 0;">1. Singapur: La Ciudad Jardín</h4>
-        <p>Singapur ha integrado la naturaleza en su arquitectura de forma literal. Con leyes que exigen que cualquier espacio verde perdido por la construcción sea reemplazado con vegetación vertical o techos verdes, la ciudad ha logrado reducir su temperatura media y mejorar la calidad del aire de forma drástica.</p>
-        
-        <h4 style="color: #fff;">2. Copenhague: El Reino de las Bicicletas</h4>
-        <p>Dinamarca nos enseña que la movilidad es la clave. Con más bicicletas que autos y una infraestructura diseñada para el peatón, Copenhague aspira a ser la primera capital neutral en carbono para finales de esta década.</p>
-        
-        <h4 style="color: #fff;">3. Curitiba: Innovación en Transporte</h4>
-        <p>En Latinoamérica, Curitiba (Brasil) es pionera en el sistema de transporte rápido en autobús (BRT), demostrando que la eficiencia y la reducción de emisiones pueden ir de la mano con presupuestos inteligentes.</p>
-    </div>
-
-    <h3 style="color: #00ff88; margin-top: 40px;">¿Por qué esto importa para los inversores?</h3>
-    <p>
-        En <strong>UrbanGrowth</strong>, entendemos que las propiedades con certificaciones ecológicas y ubicadas en entornos sostenibles mantienen un valor de mercado un 20% superior a las construcciones tradicionales. Invertir en sostenibilidad no es solo una cuestión ética, es la decisión financiera más inteligente del siglo XXI.
-    </p>
-
-    <div style="text-align: center; margin-top: 50px;">
-        <hr style="border: 0; border-top: 1px solid #333; margin-bottom: 30px;">
-        <p style="color: #00ff88; font-weight: bold;">¿Te interesa invertir en proyectos que respetan el medio ambiente?</p>
-        <a href="#contacto" style="display: inline-block; padding: 12px 30px; background: #00ff88; color: #000; text-decoration: none; border-radius: 50px; font-weight: bold; transition: 0.3s;">
-            Consultar Proyectos
-        </a>
-    </div>
-
-</section>
-    
-    <footer class="bg-slate-900 text-white py-12 px-4 mt-20">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-6 md:mb-0">
-                <h1 class="text-xl font-black uppercase tracking-tighter">URBAN GROWTH</h1>
-                <p class="text-slate-400 text-sm">© 2026 - Hacia un futuro más verde.</p>
+    <section id="tandil" class="bg-slate-900 py-24 border-y border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl font-black text-white mb-8">Data-Driven Real Estate</h2>
+            <p class="text-slate-400 text-lg mb-12 max-w-2xl mx-auto">No tomamos decisiones por intuición. Utilizamos el mapa de calor de valores de nuestra plataforma vinculada para identificar oportunidades "Off-Market".</p>
+            <div class="bg-[#0a0f1a] p-10 rounded-lg border border-emerald-500/20 shadow-2xl">
+                <h4 class="text-emerald-500 font-bold mb-4 uppercase text-sm tracking-widest">Acceso Directo</h4>
+                <p class="text-white text-2xl font-light mb-8 italic">"Visualice cada lote, cada casa y cada tendencia de precio en tiempo real."</p>
+                <a href="https://tandilprop.com" class="bg-white text-black px-12 py-4 font-bold rounded-sm hover:bg-emerald-500 transition-colors inline-block">IR A TANDILPROP.COM</a>
             </div>
-            <div class="flex space-x-6 text-sm font-bold uppercase">
-                <a href="privacidad.html" class="hover:text-emerald-500 transition">Privacidad</a>
-                <a href="mailto:ceo@urbangrowth.space" class="hover:text-emerald-500 transition">Contacto</a>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-20 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start">
+            <div class="mb-12 md:mb-0">
+                <h1 class="text-2xl font-black uppercase tracking-tighter mb-4">URBAN <span class="text-emerald-500">GROWTH</span></h1>
+                <p class="text-slate-500 text-xs max-w-xs leading-loose">Observatorio de inteligencia urbana especializado en el desarrollo del sudeste bonaerense. Información objetiva para decisiones de alto impacto.</p>
             </div>
+            <div class="grid grid-cols-2 gap-16">
+                <div>
+                    <h5 class="text-xs font-bold uppercase tracking-[0.2em] mb-6 text-emerald-500">Legal</h5>
+                    <ul class="text-slate-400 text-xs space-y-4">
+                        <li><a href="privacidad.html" class="hover:text-white transition">Privacidad</a></li>
+                        <li><a href="#" class="hover:text-white transition">Términos de Uso</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-xs font-bold uppercase tracking-[0.2em] mb-6 text-emerald-500">Contacto</h5>
+                    <ul class="text-slate-400 text-xs space-y-4">
+                        <li><a href="mailto:ceo@urbangrowth.space" class="hover:text-white transition">Inversores</a></li>
+                        <li><a href="#" class="hover:text-white transition">Consultoría</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-slate-900 flex justify-between items-center text-[10px] text-slate-600 font-bold uppercase tracking-widest">
+            <p>© 2026 UrbanGrowth Intellectual Property</p>
+            <p>Tandil, Argentina</p>
         </div>
     </footer>
-<section id="informes" style="padding: 60px 20px; background: #111; color: #fff; text-align: center;">
-    <h2 style="color: #00ff88; margin-bottom: 40px;">Informes de Mercado 2026</h2>
-    
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1200px; margin: 0 auto;">
-        
-        <div style="background: #1a1a1a; border: 1px solid #333; padding: 20px; width: 300px; border-radius: 15px; transition: 0.3s;">
-            <div style="color: #00ff88; font-size: 0.8rem; margin-bottom: 10px;">TENDENCIAS</div>
-            <h4 style="margin: 10px 0;">Impacto de la IA en el Diseño Urbano</h4>
-            <p style="color: #aaa; font-size: 0.9rem;">Analizamos cómo los algoritmos optimizan el flujo de energía en las nuevas Smart Cities.</p>
-            <span style="color: #00ff88; font-size: 0.8rem; font-weight: bold;">PRÓXIMAMENTE</span>
-        </div>
 
-        <div style="background: #1a1a1a; border: 1px solid #333; padding: 20px; width: 300px; border-radius: 15px;">
-            <div style="color: #00ff88; font-size: 0.8rem; margin-bottom: 10px;">MERCADOS</div>
-            <h4 style="margin: 10px 0;">Hubs Tecnológicos en LATAM</h4>
-            <p style="color: #aaa; font-size: 0.9rem;">Las 5 ciudades con mayor potencial de crecimiento en infraestructura digital.</p>
-            <span style="color: #00ff88; font-size: 0.8rem; font-weight: bold;">PRÓXIMAMENTE</span>
-        </div>
-
-        <div style="background: #1a1a1a; border: 1px solid #333; padding: 20px; width: 300px; border-radius: 15px;">
-            <div style="color: #00ff88; font-size: 0.8rem; margin-bottom: 10px;">SOSTENIBILIDAD</div>
-            <h4 style="margin: 10px 0;">Certificaciones LEED 2026</h4>
-            <p style="color: #aaa; font-size: 0.9rem;">Guía completa sobre los nuevos estándares de construcción carbono cero.</p>
-            <span style="color: #00ff88; font-size: 0.8rem; font-weight: bold;">PRÓXIMAMENTE</span>
-        </div>
-
-    </div>
-</section>
-  <section style="padding: 60px 20px; max-width: 800px; margin: 0 auto; color: #eee;">
-    <h2 style="color: #00ff88; text-align: center; margin-bottom: 30px;">Preguntas Frecuentes</h2>
-    
-    <div style="margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 10px;">
-        <h4 style="color: #00ff88;">¿Qué es UrbanGrowth?</h4>
-        <p style="color: #ccc;">Es un observatorio digital dedicado al análisis y difusión de tendencias en desarrollo urbano sostenible y tecnología aplicada a las ciudades.</p>
-    </div>
-
-    <div style="margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 10px;">
-        <h4 style="color: #00ff88;">¿Cómo se seleccionan los ejemplos de ciudades?</h4>
-        <p style="color: #ccc;">Basamos nuestros informes en datos oficiales de organismos internacionales, evaluando índices de habitabilidad, huella de carbono y eficiencia energética.</p>
-    </div>
-
-    <div style="margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 10px;">
-        <h4 style="color: #00ff88;">¿Tienen fines comerciales?</h4>
-        <p style="color: #ccc;">No. UrbanGrowth es un portal estrictamente informativo y de divulgación técnica para la comunidad interesada en el futuro de las ciudades.</p>
-    </div>
-  </section>  
 </body>
 </html>
