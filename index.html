@@ -13,7 +13,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Primario -->
     <title>UrbanGrowth | Desarrollo Sostenible e Inversiones en Tandil</title>
     <meta name="description" content="Observatorio de inteligencia urbana sobre desarrollo sostenible, calidad de vida e inversiones responsables en Tandil y el sudeste bonaerense. Análisis, datos y perspectiva editorial independiente.">
     <meta name="keywords" content="desarrollo sostenible Tandil, inversiones Tandil, calidad de vida Tandil, urbanismo sostenible, sudeste bonaerense, polo tecnológico Tandil, real estate sustentable">
@@ -21,7 +20,6 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://urbangrowth.space/">
 
-    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://urbangrowth.space/">
     <meta property="og:title" content="UrbanGrowth | Desarrollo Sostenible e Inversiones en Tandil">
@@ -32,13 +30,11 @@
     <meta property="og:locale" content="es_AR">
     <meta property="og:site_name" content="UrbanGrowth">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="UrbanGrowth | Desarrollo Sostenible e Inversiones en Tandil">
     <meta name="twitter:description" content="Observatorio de inteligencia urbana sobre desarrollo sostenible en Tandil y el sudeste bonaerense.">
     <meta name="twitter:image" content="https://urbangrowth.space/cristo-tandil.jpg">
 
-    <!-- JSON-LD: Organización (E-E-A-T para Google) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -47,34 +43,16 @@
       "url": "https://urbangrowth.space",
       "logo": "https://urbangrowth.space/cristo-tandil.jpg",
       "description": "Observatorio de inteligencia urbana especializado en desarrollo sostenible e inversiones responsables en el sudeste bonaerense.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Tandil",
-        "addressRegion": "Buenos Aires",
-        "addressCountry": "AR"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "ceo@urbangrowth.space",
-        "contactType": "editorial"
-      },
+      "address": { "@type": "PostalAddress", "addressLocality": "Tandil", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+      "contactPoint": { "@type": "ContactPoint", "email": "ceo@urbangrowth.space", "contactType": "editorial" },
       "sameAs": []
     }
     </script>
-
-    <!-- JSON-LD: WebSite con SearchAction -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "UrbanGrowth",
-      "url": "https://urbangrowth.space"
-    }
+    { "@context": "https://schema.org", "@type": "WebSite", "name": "UrbanGrowth", "url": "https://urbangrowth.space" }
     </script>
 
-    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5719496512652584" crossorigin="anonymous"></script>
-
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
@@ -89,58 +67,104 @@
 </head>
 <body class="bg-[#0a0f1a] text-slate-300 antialiased">
 
-    <!-- Navegación principal -->
     <nav class="bg-[#0f172a]/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-800" role="navigation" aria-label="Navegación principal">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="/" aria-label="UrbanGrowth - Inicio">
                 <h1 class="text-2xl font-black tracking-tighter text-white uppercase">URBAN<span class="text-emerald-500">GROWTH</span></h1>
             </a>
             <div class="hidden md:flex space-x-8 text-[10px] font-bold uppercase tracking-[0.2em]">
+                <a href="#novedades" class="hover:text-emerald-500 transition text-slate-400">Novedades</a>
                 <a href="#tesis" class="hover:text-emerald-500 transition text-slate-400">Análisis</a>
                 <a href="#articulos" class="hover:text-emerald-500 transition text-slate-400">Calidad de Vida</a>
-                <a href="#vision" class="hover:text-emerald-500 transition text-slate-400">Sostenibilidad</a>
                 <a href="acerca-de.html" class="hover:text-emerald-500 transition text-slate-400 border border-emerald-500/30 px-3 py-1">Acerca de</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
     <header class="hero-bg h-[85vh] flex items-center justify-center text-center px-4" role="banner">
         <div class="max-w-4xl">
             <span class="text-emerald-500 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Observatorio Urbano · Tandil & Sudeste Bonaerense</span>
             <h2 class="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">Donde el Capital encuentra Sostenibilidad.</h2>
             <p class="text-xl opacity-80 mb-10 font-light max-w-2xl mx-auto">Analizamos el crecimiento urbano y las oportunidades de inversión sostenible en el sudeste bonaerense, con datos, rigor editorial e independencia.</p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#tesis" class="bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-4 rounded-sm font-bold transition-all shadow-2xl uppercase text-xs tracking-widest">Ver Análisis 2026</a>
+                <a href="#novedades" class="bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-4 rounded-sm font-bold transition-all shadow-2xl uppercase text-xs tracking-widest">Ver Análisis 2026</a>
                 <a href="acerca-de.html" class="border border-white/20 hover:bg-white/10 text-white px-10 py-4 rounded-sm font-bold transition-all uppercase text-xs tracking-widest">Quiénes somos</a>
             </div>
         </div>
     </header>
 
-    <!-- Bloque AdSense (auto ads ya configurado en cuenta — este espacio es reserva manual) -->
-    <!-- NOTA: reemplazar data-ad-slot="XXXXXXXXXX" con tu slot ID real desde el panel de AdSense -->
+    <!-- AdSense -->
     <div class="max-w-5xl mx-auto my-16 px-4" aria-label="Publicidad">
         <div class="bg-slate-900/50 p-2 rounded-lg border border-slate-800 flex items-center justify-center min-h-[100px]">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-5719496512652584"
-                 data-ad-slot="REEMPLAZAR_CON_SLOT_ID"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5719496512652584" data-ad-slot="REEMPLAZAR_CON_SLOT_ID" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
     </div>
 
-    <!-- Sección: Calidad de Vida -->
+    <!-- NOVEDADES — 3 artículos nuevos -->
+    <section id="novedades" class="max-w-7xl mx-auto px-6 py-16 border-b border-slate-800" aria-labelledby="novedades-titulo">
+        <div class="mb-12">
+            <span class="text-emerald-500 font-bold uppercase tracking-[0.3em] text-xs mb-2 block">Publicaciones recientes</span>
+            <h2 id="novedades-titulo" class="text-3xl font-black text-white mb-4 uppercase tracking-tighter">Novedades del Observatorio</h2>
+            <div class="h-1 w-20 bg-emerald-500"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <article class="bg-slate-900/40 border border-slate-800 rounded-xl overflow-hidden hover:border-emerald-500/30 transition group">
+                <div class="overflow-hidden h-48">
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80"
+                        alt="Aerogeneradores de parque eólico al atardecer en paisaje de llanura pampeana"
+                        width="800" height="400" loading="lazy"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest block mb-2">Energía Renovable · Marzo 2026</span>
+                    <h3 class="text-white font-black text-lg mb-3 leading-snug group-hover:text-emerald-400 transition">Parque Eólico La Elbita: Tandil en la Transición Energética</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-5">162 MW, 36 aerogeneradores Vestas y US$240M de inversión. El parque que convierte a Tandil en referente renovable de Argentina.</p>
+                    <a href="parque-eolico-la-elbita-tandil.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1 hover:text-emerald-400 transition">Leer artículo →</a>
+                </div>
+            </article>
+
+            <article class="bg-slate-900/40 border border-slate-800 rounded-xl overflow-hidden hover:border-emerald-500/30 transition group">
+                <div class="overflow-hidden h-48">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+                        alt="Campus universitario moderno con estudiantes y arquitectura contemporánea"
+                        width="800" height="400" loading="lazy"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest block mb-2">Economía del Conocimiento · Marzo 2026</span>
+                    <h3 class="text-white font-black text-lg mb-3 leading-snug group-hover:text-emerald-400 transition">El Rol de la UNICEN en el Ecosistema Tech de Tandil</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-5">La universidad pública como motor del Polo Tecnológico, la calidad de vida y el desarrollo sostenible de la ciudad.</p>
+                    <a href="unicen-polo-tecnologico-tandil.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1 hover:text-emerald-400 transition">Leer artículo →</a>
+                </div>
+            </article>
+
+            <article class="bg-slate-900/40 border border-slate-800 rounded-xl overflow-hidden hover:border-emerald-500/30 transition group">
+                <div class="overflow-hidden h-48">
+                    <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&q=80"
+                        alt="Ciudad moderna con espacios verdes integrados y arquitectura sustentable"
+                        width="800" height="400" loading="lazy"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest block mb-2">Fundamentos · Marzo 2026</span>
+                    <h3 class="text-white font-black text-lg mb-3 leading-snug group-hover:text-emerald-400 transition">Qué es el Desarrollo Urbano Sostenible y Por Qué Importa</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-5">Los tres pilares del desarrollo sostenible y por qué Tandil es un caso de referencia en Argentina.</p>
+                    <a href="desarrollo-urbano-sostenible.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1 hover:text-emerald-400 transition">Leer artículo →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Calidad de Vida -->
     <section id="articulos" class="max-w-7xl mx-auto px-6 py-12 border-b border-slate-800" aria-labelledby="calidad-vida-titulo">
         <div class="grid md:grid-cols-2 gap-12 items-center bg-slate-900/30 p-8 rounded-xl border border-slate-800/50">
             <div>
-                <img
-                    src="cristo-tandil.jpg"
+                <img src="cristo-tandil.jpg"
                     alt="Vista panorámica de las sierras de Tandil con el Cristo en primer plano y la ciudad al fondo"
-                    width="800"
-                    height="534"
-                    loading="lazy"
+                    width="800" height="534" loading="lazy"
                     class="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
                 <p class="text-[10px] text-slate-500 mt-2 italic text-center">Tandil: El equilibrio perfecto entre ciudad y naturaleza.</p>
             </div>
@@ -160,26 +184,20 @@
         </div>
     </section>
 
-    <!-- Sección: Estrategia e Infraestructura -->
+    <!-- Estrategia e Infraestructura -->
     <section id="vision" class="max-w-7xl mx-auto px-6 py-16 bg-[#0f172a]/50 border-b border-slate-800" aria-labelledby="estrategia-titulo">
         <div class="grid md:grid-cols-2 gap-16">
             <div>
                 <span class="text-emerald-500 font-bold uppercase tracking-[0.2em] text-[10px] mb-4 block">Mercado Inmobiliario</span>
                 <h2 id="estrategia-titulo" class="text-3xl font-black text-white mb-6 leading-tight">El ladrillo como activo de refugio en el sudeste</h2>
-                <p class="text-slate-400 leading-relaxed mb-6 text-sm">
-                    El mercado inmobiliario de Tandil ha mostrado resiliencia notable frente a la volatilidad macroeconómica argentina. La escasez de tierra apta para desarrollo urbano —limitada naturalmente por las sierras y regulada por el Plan de Ordenamiento Territorial— genera una dinámica de oferta restringida que sostiene el valor de los activos en el largo plazo.
-                </p>
-                <p class="text-slate-400 leading-relaxed text-sm">
-                    Este análisis no constituye asesoramiento financiero. Los datos presentados son de carácter informativo y deben complementarse con consulta a profesionales habilitados.
-                </p>
+                <p class="text-slate-400 leading-relaxed mb-6 text-sm">El mercado inmobiliario de Tandil ha mostrado resiliencia notable frente a la volatilidad macroeconómica argentina. La escasez de tierra apta para desarrollo urbano —limitada por las sierras y regulada por el Plan de Ordenamiento Territorial— genera una dinámica de oferta restringida que sostiene el valor de los activos a largo plazo.</p>
+                <p class="text-slate-400 leading-relaxed text-sm">Este análisis no constituye asesoramiento financiero. Los datos son de carácter informativo y deben complementarse con consulta a profesionales habilitados.</p>
             </div>
             <div>
                 <span class="text-emerald-500 font-bold uppercase tracking-[0.2em] text-[10px] mb-4 block">Infraestructura &amp; Conectividad</span>
                 <h2 class="text-3xl font-black text-white mb-6 leading-tight">Economía del conocimiento y expansión urbana</h2>
-                <p class="text-slate-400 leading-relaxed mb-6 text-sm">
-                    La expansión de la red de fibra óptica y el crecimiento del <strong>Polo Tecnológico Tandil</strong> están redefiniendo la geografía productiva de la ciudad. Barrios como Don Bosco, San Antonio y El Centinela se consolidan como zonas de uso mixto: residencial premium, turismo y trabajo remoto.
-                </p>
-                <div class="bg-slate-900 p-6 rounded-lg border border-slate-700" role="table" aria-label="Indicadores de crecimiento 2026">
+                <p class="text-slate-400 leading-relaxed mb-6 text-sm">La expansión de la red de fibra óptica y el crecimiento del <strong>Polo Tecnológico Tandil</strong> están redefiniendo la geografía productiva de la ciudad. Barrios como Don Bosco, San Antonio y El Centinela se consolidan como zonas de uso mixto: residencial premium, turismo y trabajo remoto.</p>
+                <div class="bg-slate-900 p-6 rounded-lg border border-slate-700">
                     <h4 class="text-white font-bold text-xs uppercase mb-3">Indicadores de Crecimiento 2026</h4>
                     <ul class="text-[11px] space-y-2 text-slate-500 font-bold">
                         <li class="flex justify-between border-b border-slate-800 pb-1"><span>Demanda Tech (Polo Tandil)</span> <span class="text-emerald-500">+22%</span></li>
@@ -191,67 +209,52 @@
         </div>
     </section>
 
-    <!-- Sección: Artículos / Tesis -->
+    <!-- Análisis / Tesis -->
     <main id="tesis" class="max-w-7xl mx-auto px-6 py-20" role="main">
         <div class="mb-16">
             <span class="text-emerald-500 font-bold uppercase tracking-[0.3em] text-xs mb-2 block">Editorial</span>
             <h3 class="text-3xl font-black text-white mb-4 italic uppercase tracking-tighter">Análisis e Investigación</h3>
             <div class="h-1 w-20 bg-emerald-500"></div>
         </div>
-
         <div class="grid md:grid-cols-3 gap-12">
-
             <article>
                 <div class="overflow-hidden mb-6 rounded-sm">
-                    <img
-                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
                         alt="Edificios modernos con certificación ambiental representando inversión en real estate sostenible"
-                        width="800"
-                        height="534"
-                        loading="lazy"
+                        width="800" height="534" loading="lazy"
                         class="hover:scale-110 transition-transform duration-500 grayscale hover:grayscale-0">
                 </div>
                 <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Real Estate &amp; Sostenibilidad</span>
                 <h4 class="text-xl font-bold text-white mt-2 mb-4">Tandil 2026: Refugio de valor y rentabilidad sostenible</h4>
                 <p class="text-slate-400 text-sm leading-relaxed mb-4">Análisis de la tasa de capitalización, demanda de alquiler premium y el rol del sector tech en la revalorización del mercado inmobiliario local.</p>
-                <a href="tesis-tandil.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1" aria-label="Leer análisis completo sobre Tandil como refugio de valor">Leer análisis completo →</a>
+                <a href="tesis-tandil.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Leer análisis completo →</a>
             </article>
-
             <article>
                 <div class="overflow-hidden mb-6 rounded-sm">
-                    <img
-                        src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
                         alt="Vivienda moderna con diseño sustentable y amplia iluminación natural"
-                        width="800"
-                        height="534"
-                        loading="lazy"
+                        width="800" height="534" loading="lazy"
                         class="hover:scale-110 transition-transform duration-500 grayscale hover:grayscale-0">
                 </div>
                 <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Marco Regulatorio</span>
                 <h4 class="text-xl font-bold text-white mt-2 mb-4">Guía para Inversores del Mercosur</h4>
                 <p class="text-slate-400 text-sm leading-relaxed mb-4">Marcos impositivos, normativa urbanística y la creciente demanda de viviendas de calidad para profesionales IT y trabajadores remotos de la región.</p>
-                <a href="guia-mercosur.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1" aria-label="Ver marco legal para inversores del Mercosur">Ver marco legal →</a>
+                <a href="guia-mercosur.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Ver marco legal →</a>
             </article>
-
             <article>
                 <div class="overflow-hidden mb-6 rounded-sm">
-                    <img
-                        src="https://images.unsplash.com/photo-1449156001437-37c645dce501?auto=format&fit=crop&w=800&q=80"
+                    <img src="https://images.unsplash.com/photo-1449156001437-37c645dce501?auto=format&fit=crop&w=800&q=80"
                         alt="Arquitectura sustentable con paneles solares y techos verdes integrados al paisaje"
-                        width="800"
-                        height="534"
-                        loading="lazy"
+                        width="800" height="534" loading="lazy"
                         class="hover:scale-110 transition-transform duration-500 grayscale hover:grayscale-0">
                 </div>
                 <span class="text-emerald-500 text-[10px] font-bold uppercase tracking-widest">Arquitectura &amp; Medio Ambiente</span>
                 <h4 class="text-xl font-bold text-white mt-2 mb-4">Construcción Carbono-Cero en la Región</h4>
                 <p class="text-slate-400 text-sm leading-relaxed mb-4">Cómo las certificaciones de construcción sustentable están impactando en los valores de tasación y en la agenda del desarrollo urbano local.</p>
-                <a href="construccion-sustentable.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1" aria-label="Explorar tendencias en construcción sustentable">Explorar tendencias →</a>
+                <a href="construccion-sustentable.html" class="text-emerald-500 text-xs font-bold border-b border-emerald-500/30 pb-1">Explorar tendencias →</a>
             </article>
-
         </div>
 
-        <!-- CTA editorial, no comercial -->
         <div class="mt-20 bg-slate-900/40 border border-slate-800 rounded-xl p-10 text-center">
             <span class="text-emerald-500 font-bold uppercase tracking-[0.3em] text-xs mb-3 block">Nuestra misión</span>
             <h3 class="text-2xl font-black text-white mb-4">Un faro informativo para el desarrollo sostenible</h3>
@@ -260,7 +263,6 @@
         </div>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-black text-white py-20 px-6 border-t border-slate-900" role="contentinfo">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
             <div>
