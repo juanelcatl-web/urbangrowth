@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /config/
 
+# Bloquear archivos que no deben indexarse
+Disallow: /404.html
+
+# Sitemap
 Sitemap: https://urbangrowth.space/sitemap.xml
