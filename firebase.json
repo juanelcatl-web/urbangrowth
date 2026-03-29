@@ -8,7 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "!/@(ads.txt|privacidad.html|terminos.html|calidad-de-vida-tandil.html|construccion-sustentable.html|guia-mercosur.html|tesis-tandil.html|index.html|404.html|google669a3394eba611cd.html|robots.txt|sitemap.xml|CNAME|cristo-tandil.jpg)",
+        "source": "!/@(ads.txt|privacidad.html|terminos.html|acerca-de.html|calidad-de-vida-tandil.html|construccion-sustentable.html|desarrollo-urbano-sostenible.html|guia-mercosur.html|parque-eolico-la-elbita-tandil.html|tesis-tandil.html|unicen-polo-tecnologico-tandil.html|agua-cuencas-tandil.html|empleo-tech-remoto-tandil.html|mercado-inmobiliario-tandil-2026.html|ordenamiento-territorial-tandil.html|turismo-sostenible-tandil.html|index.html|404.html|google669a3394eba611cd.html|robots.txt|sitemap.xml|cristo-tandil.jpg)",
         "destination": "/index.html"
       }
     ]
