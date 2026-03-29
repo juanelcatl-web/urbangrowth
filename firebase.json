@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "!/@(ads.txt|privacidad.html|terminos.html|calidad-de-vida-tandil.html|construccion-sustentable.html|guia-mercosur.html|tesis-tandil.html|index.html|404.html|google669a3394eba611cd.html|robots.txt|sitemap.xml|CNAME|cristo-tandil.jpg)",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
