@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://urbangrowth.space/</loc>
-      <lastmod>2026-02-28</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://urbangrowth.space/privacidad.html</loc>
-      <lastmod>2026-02-28</lastmod>
-      <priority>0.80</priority>
-   </url>
+  <url><loc>https://urbangrowth.space/</loc><priority>1.0</priority></url>
+  <url><loc>https://urbangrowth.space/index.html</loc><priority>0.8</priority></url>
+
+  <url><loc>https://urbangrowth.space/calidad-de-vida-tandil.html</loc><priority>0.9</priority></url>
+  <url><loc>https://urbangrowth.space/unicen-polo-tecnologico-tandil.html</loc><priority>0.9</priority></url>
+  <url><loc>https://urbangrowth.space/parque-eolico-la-elbita-tandil.html</loc><priority>0.8</priority></url>
+  <url><loc>https://urbangrowth.space/mercado-inmobiliario-tandil-2026.html</loc><priority>0.9</priority></url>
+  <url><loc>https://urbangrowth.space/empleo-tech-remoto-tandil.html</loc><priority>0.8</priority></url>
+  <url><loc>https://urbangrowth.space/turismo-sostenible-tandil.html</loc><priority>0.7</priority></url>
+  <url><loc>https://urbangrowth.space/agua-cuencas-tandil.html</loc><priority>0.7</priority></url>
+  <url><loc>https://urbangrowth.space/ordenamiento-territorial-tandil.html</loc><priority>0.7</priority></url>
+
+  <url><loc>https://urbangrowth.space/tesis-tandil.html</loc><priority>0.8</priority></url>
+  <url><loc>https://urbangrowth.space/guia-mercosur.html</loc><priority>0.8</priority></url>
+  <url><loc>https://urbangrowth.space/construccion-sustentable.html</loc><priority>0.8</priority></url>
+
+  <url><loc>https://urbangrowth.space/privacidad.html</loc><priority>0.3</priority></url>
+  <url><loc>https://urbangrowth.space/terminos.html</loc><priority>0.3</priority></url>
 </urlset>
