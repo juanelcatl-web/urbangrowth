@@ -29,26 +29,54 @@
     <meta property="og:locale" content="es_AR">
     <meta property="og:site_name" content="UrbanGrowth">
 
-    <!-- JSON-LD: AboutPage -->
+    <!-- JSON-LD: AboutPage + Organization -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "Acerca de UrbanGrowth",
-      "url": "https://urbangrowth.space/acerca-de.html",
-      "description": "UrbanGrowth es un observatorio editorial independiente especializado en desarrollo sostenible, calidad de vida e inversiones responsables en Tandil, provincia de Buenos Aires, Argentina.",
-      "publisher": {
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "Acerca de UrbanGrowth",
+        "url": "https://urbangrowth.space/acerca-de.html",
+        "description": "UrbanGrowth es un observatorio editorial independiente especializado en desarrollo sostenible, calidad de vida e inversiones responsables en Tandil, provincia de Buenos Aires, Argentina.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://urbangrowth.space/"},
+            {"@type": "ListItem", "position": 2, "name": "Acerca de", "item": "https://urbangrowth.space/acerca-de.html"}
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "UrbanGrowth",
+          "url": "https://urbangrowth.space",
+          "email": "ceo@urbangrowth.space",
+          "foundingDate": "2024",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tandil",
+            "addressRegion": "Buenos Aires",
+            "addressCountry": "AR"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
         "@type": "Organization",
         "name": "UrbanGrowth",
         "url": "https://urbangrowth.space",
+        "logo": "https://urbangrowth.space/cristo-tandil.jpg",
+        "email": "ceo@urbangrowth.space",
+        "foundingDate": "2024",
+        "description": "Observatorio editorial independiente especializado en desarrollo sostenible e inversiones responsables en Tandil y el sudeste bonaerense.",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Tandil",
           "addressRegion": "Buenos Aires",
           "addressCountry": "AR"
-        }
+        },
+        "sameAs": ["https://urbangrowth.space"]
       }
-    }
+    ]
     </script>
 
     <!-- Google AdSense -->
